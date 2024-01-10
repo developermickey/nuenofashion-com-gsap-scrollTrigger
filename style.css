@@ -2,6 +2,10 @@
     font-family: DidotLTPro;
     src: url(./font/DidotLTPro-Italic.ttf);
 }
+@font-face {
+    font-family: FFGoodProBold;
+    src: url(./font/FFGoodPro-Bold.ttf);
+}
 * {
   margin: 0%;
   padding: 0%;
@@ -68,14 +72,17 @@ nav>h3 i {
 #page>h1{
     color: #fff;
     text-align: center;
-    font-size: 15vw;
-    line-height: .8;
+    font-size: 21vw;
+    line-height: .85;
+    font-family: FFGoodProBold;
 }
 #page .ImgUpText{
     position: relative;
     z-index: 999;
     font-family: DidotLTPro;
     letter-spacing: 15px;
+    line-height: .85;
+    font-size: 18vw;
 }
 #page1{
     position: relative;
