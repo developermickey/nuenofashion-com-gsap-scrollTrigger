@@ -38,8 +38,7 @@ nav{
     position: fixed;
     top: 0;
     bottom: 100%;
-    z-index: 99999999;
-    
+    z-index: 99999999; 
 }
 nav>h3{
     font-size: 1vw;
